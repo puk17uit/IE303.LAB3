@@ -36,7 +36,7 @@ public class ProductCard extends JPanel {
 
         
         ImageIcon icon = new ImageIcon(product.imagePath);
-        Image scaled = icon.getImage().getScaledInstance(160, 110, Image.SCALE_SMOOTH);
+        Image scaled = icon.getImage().getScaledInstance(180, 130, Image.SCALE_SMOOTH);
         JLabel imgLabel = new JLabel(new ImageIcon(scaled));
         imgLabel.setAlignmentX(Component.CENTER_ALIGNMENT); 
 

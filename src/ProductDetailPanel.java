@@ -25,7 +25,7 @@ public class ProductDetailPanel extends JPanel {
         JPanel textPanel = new JPanel();
         textPanel.setLayout(new BoxLayout(textPanel, BoxLayout.Y_AXIS));
         textPanel.setBackground(Color.WHITE);
-        textPanel.setBorder(BorderFactory.createEmptyBorder(0, 12, 0, 0)); // ⭐ thêm padding trái 12px
+        textPanel.setBorder(BorderFactory.createEmptyBorder(0, 12, 0, 0)); 
 
     
         JSeparator separator = new JSeparator();
